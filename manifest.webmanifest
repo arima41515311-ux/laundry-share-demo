@@ -1,0 +1,27 @@
+{
+  "id": "./",
+  "name": "洗濯・乾燥状況共有｜操作デモ",
+  "short_name": "洗濯・乾燥",
+  "description": "洗濯機4台と乾燥機4台の状況を確認できる操作デモ（架空の利用者のみ）",
+  "lang": "ja",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f0f6f6",
+  "theme_color": "#eef5f6",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
