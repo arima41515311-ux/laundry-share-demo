@@ -1,5 +1,5 @@
 // The demo is cached for optional offline use. Change the version when releasing updates.
-const CACHE_NAME = 'laundry-demo-pwa-v1';
+const CACHE_NAME = 'laundry-demo-pwa-v3';
 const ASSETS = ['./','./index.html','./manifest.webmanifest','./icon-192.png','./icon-512.png','./apple-touch-icon.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(ASSETS)).then(() => self.skipWaiting()));
